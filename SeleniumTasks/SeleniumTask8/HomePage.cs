@@ -47,7 +47,7 @@ namespace DevBy
                 Task.Delay(2_000).Wait();
 
                 //Grabs the browser handles open
-                var browserTabs = _driver.WindowHandles;
+            var browserTabs = _driver.WindowHandles;
 
                 //When the link is clicked on switch to that tab
                 _driver.SwitchTo().Window(_driver.WindowHandles[1]);
@@ -64,7 +64,7 @@ namespace DevBy
             var javaJobElements = _driver.FindElements(By.XPath(SITE_JAVA_JOBS));
             foreach (var jobElement in javaJobElements)
             {
-                Console.WriteLine(jobElement.GetAttribute("innerHTML"));
+            Console.WriteLine(jobElement.GetAttribute("innerHTML"));
             }
         }
         public void PrintJavaJobsDescriptions()
@@ -74,11 +74,7 @@ namespace DevBy
             {
             var text = jobElementDescription.GetAttribute("innerHTML");
             Console.WriteLine(text);
-            }
-                       
+            }           
         }
     }
 }
-
-
-
