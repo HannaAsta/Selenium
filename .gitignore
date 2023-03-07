@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/SeleniumTasks/SeleniumTask8/obj
+/SeleniumTasks/.vs/SeleniumTasks
